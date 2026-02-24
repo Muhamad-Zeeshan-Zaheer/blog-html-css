@@ -1,130 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
-    <link rel="stylesheet" href="index.css">
-    <script src="https://kit.fontawesome.com/d43c8925be.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-  <nav class="header1">
-    <h1>SITENAME</h1>
-    <div class="icons">
-      <i class="fa-brands fa-square-facebook fa-sm" style="color: rgb(116, 192, 252);"></i>
-      <i class="fa-brands fa-square-dribbble fa-sm" style="color: #c93e81 ;"></i>
-      <i class="fa-brands fa-square-twitter fa-sm" style="color: rgb(149, 233, 243);"></i>
-      <i class="fa-brands fa-flickr" style="color: rgb(218, 220, 217);"></i>
-    </div>
-  </nav>
-  <div class="header2">
-    <ul class="list-itmes">
-      <li>HOME</li>
-      <li>ABOUT</li>
-      <li>PORTFOLIO</li>
-      <li>BLOG</li>
-      <li>CONTACT</li>
-    </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://kit.fontawesome.com/d43c8925be.js" crossorigin="anonymous"></script>
+</head>
+<body>
 
-    <div class="search-container">
-      SEARCH
-      <input type="search" id="search">
-      <i class="fa-solid fa-magnifying-glass fa-2xs search-icon" style="color: rgb(218, 220, 217);"></i>
-    </div>
+<!-- ================= HEADER TOP ================= -->
+<nav class="header1">
+  <h1>SITENAME</h1>
+  <div class="icons">
+    <i class="fa-brands fa-square-facebook"></i>
+    <i class="fa-brands fa-square-dribbble"></i>
+    <i class="fa-brands fa-square-twitter"></i>
+    <i class="fa-brands fa-flickr"></i>
+  </div>
+</nav>
+
+<!-- ================= NAV BAR ================= -->
+<div class="header2">
+  <input type="checkbox" id="menu-toggle">
+  <ul class="list-itmes">
+    <li>HOME</li>
+    <li>ABOUT</li>
+    <li>PORTFOLIO</li>
+    <li>BLOG</li>
+    <li>CONTACT</li>
+  </ul>
+
+  <div class="search-container">
+    <span>SEARCH</span>
+    <input type="search" id="search">
+    <i class="fa-solid fa-magnifying-glass search-icon"></i>
   </div>
 
-  <div class="banner">
+  <label for="menu-toggle" class="hamburger">
+    <i class="fas fa-bars"></i>
+  </label>
+</div>
+
+<!-- ================= BANNER ================= -->
+<div class="banner">
+  <div class="container">
+
     <div class="main-content">
       <div class="left">
         <h2 class="heading-h2">WELCOME TO OUR SITE</h2>
-        <P class="lorem-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nobis sequi quis praesentium recusandae nihil, consequatur tempora nostrum necessitatibus, mollitia minus, impedit numquam excepturi amet. Qui quibusdam distinctio consequuntur magni.
-        Voluptate necessitatibus corrupti quae laboriosam repellat exercitationem natus modi voluptatum similique quo nobis officiis atque quia, commodi nemo quod earum ipsam sint adipisci odit eum provident, quisquam architecto. Iste, similique?
-        Quam accusamus neque necessitatibus nulla repellat nisi esse animi cum sunt error modi et aut ad, eveniet laboriosam ullam voluptates obcaecati, provident dolores sapiente ratione! Laboriosam rem eius temporibus eligendi?
-        Aliquam, odio dolores tenetur incidunt, maiores modi eius adipisci officia atque nulla aperiam labore. Explicabo ratione error quia, tenetur soluta illum nostrum. Neque tempora illum iure assumenda a at nisi!</P>
+        <p class="lorem-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nobis sequi quis praesentium recusandae nihil, consequatur tempora nostrum necessitatibus, mollitia minus, impedit numquam excepturi amet.
+        </p>
       </div>
 
       <div class="right">
-        <img src="images/dragon.png" alt="image">
+        <img src="images/dragon.png" alt="Dragon illustration">
       </div>
     </div>
-    <div class="copyright-section">
-      <p>you are here Home welcome...</p>
-    </div>
-  </div>
 
+    <div class="copyright-section">
+      <p>You are here: Home / Welcome...</p>
+    </div>
+
+  </div>
+</div>
+
+<!-- ================= BLOG + SIDEBAR ================= -->
+<div class="container">
   <div class="article">
+
+    <!-- BLOG LEFT -->
     <div class="left">
       <p>FROM THE BLOG</p>
-      <P>BLOG POST NAME HERE</P>
-      <P>December 7<sup>th</sup>2010 |10 Comments</P>
-      <img src="images/stationary.png" alt="stationary">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, deserunt quibusdam? Aliquam at doloribus tempora maiores facilis veritatis possimus error sed natus, recusandae id excepturi voluptate? Ducimus qui quis blanditiis.
-      Nihil eveniet iure possimus earum laborum eius iusto. Tempore quasi, delectus esse nobis fuga nostrum id voluptatem deserunt et. Accusantium libero id officia deserunt aut, quasi enim. Velit, deleniti nemo.</p>
+      <p>BLOG POST NAME HERE</p>
+      <p>December 7<sup>th</sup> 2010 | 10 Comments</p>
 
-      <p>Another Blog Post Here That Has a Slightly Longer Title </p>
-      <p>May 15<sup>th</sup>2024 |No Comments</p>
-      <img src="images/time.png" alt="time">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, deserunt quibusdam? Aliquam at doloribus tempora maiores facilis veritatis possimus error sed natus, recusandae id excepturi voluptate? Ducimus qui quis blanditiis.
-      Nihil eveniet iure possimus earum laborum eius iusto. Tempore quasi, delectus esse nobis fuga nostrum id voluptatem deserunt et. Accusantium libero id officia deserunt aut, quasi enim. Velit, deleniti nemo. </p>
+      <img src="images/stationary.png" alt="Stationary">
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, deserunt quibusdam? Aliquam at doloribus tempora maiores facilis veritatis possimus error sed natus.
+      </p>
+
+      <p>Another Blog Post Here That Has a Slightly Longer Title</p>
+      <p>May 15<sup>th</sup> 2024 | No Comments</p>
+
+      <img src="images/time.png" alt="Clock">
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, deserunt quibusdam? Aliquam at doloribus tempora maiores facilis veritatis possimus error sed natus.
+      </p>
 
       <button class="blog-button">THE BLOG</button>
     </div>
-    <div class="right">
+
+    <!-- SIDEBAR RIGHT -->
+    <aside class="right">
       <div class="lorem-context">
-        <span>Comments</span> &nbsp; <span class="lorem-context-header">Categories &nbsp;Archives</span>
-        <p class="lorem-text-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolores iusto exercitationem. Aut, nulla ad magni impedit suscipit excepturi doloremque. Saepe quasi illum numquam eaque earum! Maxime ab aspernatur omnis?
-        Explicabo quaerat, impedit, beatae vero reiciendis illo magni omnis facere et sapiente suscipit tenetur ducimus nobis fuga voluptatum id placeat iure at. Veritatis ipsum voluptatum aliquid, exercitationem enim magnam nisi?</p>
+        <span>Comments</span>
+        <span class="lorem-context-header">Categories & Archives</span>
+        <p class="lorem-text-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolores iusto exercitationem. Aut, nulla ad magni impedit suscipit excepturi doloremque.
+        </p>
       </div>
+
       <h4 class="heading-h4">WHO WE ARE</h4>
-      <img src="images/person.png" alt="person">
-      <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore minima dolore, fuga deleniti vel fugiat velit error iure obcaecati asperiores, dignissimos illo sed optio iste repellat natus aliquam enim? Porro?
-      Officia repellendus,
+      <img src="images/person.png" alt="Team member">
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore minima dolore, fuga deleniti vel fugiat velit error iure obcaecati asperiores.
       </p>
 
       <div class="sponsors">
         <h4>Sponsors</h4>
         <div class="sponsor-images">
-          <img src="images/sponser1.png" alt="sponsor1">
-          <img src="images/sponser2.png" alt="sponsor2">
+          <img src="images/sponser1.png" alt="Sponsor 1">
+          <img src="images/sponser2.png" alt="Sponsor 2">
         </div>
       </div>
+    </aside>
+
+  </div>
+</div>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+
+  <div class="footer-top">
+
+    <!-- COLUMN 1 -->
+    <div class="footer-column">
+      <h4>GET A FREE QUOTE</h4>
+      <div class="name-email-group">
+        <input type="text" placeholder="Your name">
+        <input type="email" placeholder="Your email">
+      </div>
+      <textarea placeholder="Your project details"></textarea>
+      <input type="text" placeholder="Your timescale">
+      <button>SUBMIT</button>
     </div>
+
+    <!-- COLUMN 2 -->
+    <div class="footer-column">
+      <h4>RECENT PROJECTS</h4>
+      <div class="project-images">
+        <img src="images/project1.png" alt="">
+        <img src="images/project2.png" alt="">
+        <img src="images/project3.png" alt="">
+        <img src="images/project4.png" alt="">
+      </div>
+      <button>PORTFOLIO</button>
+    </div>
+
+    <!-- COLUMN 3 -->
+    <div class="footer-column">
+      <h4>TWITTER STREAM</h4>
+      <p>Lorem ipsum dolor sit amet <a href="#">@WebsiteName</a></p>
+      <p>Lorem ipsum dolor sit amet <a href="#">@WebsiteName</a></p>
+      <p>Lorem ipsum dolor sit amet <a href="#">@WebsiteName</a></p>
+      <button>FOLLOW US</button>
+    </div>
+
   </div>
 
-  <footer class="footer">
-    <div class="footer-top">
-      <div class="footer-column">
-        <h4>GET A FREE QUOTE</h4>
-        <div class="name-email-group">
-          <input type="text" placeholder="Your name">
-          <input type="email" placeholder="Your email">
-        </div>
-        <textarea placeholder="Your project details"></textarea>
-        <input type="text" placeholder="Your timescale">
-        <button>SUBMIT</button>
-      </div>
-      <div class="footer-column">
-        <h4>RECENT PROJECTS</h4>
-        <div class="project-images">
-          <img src="images/project1.png" alt="Project 1">
-          <img src="images/project2.png" alt="Project 2">
-          <img src="images/project3.png" alt="Project 3">
-          <img src="images/project4.png" alt="Project 4">
-        </div>
-        <button>PORTFOLIO</button>
-      </div>
-      <div class="footer-column">
-        <h4>TWITTER STREAM</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#">@WebsiteName</a></p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#">@WebsiteName</a></p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#">@WebsiteName</a></p>
-        <button>FOLLOW US</button>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>Copyright '10 - WebsiteName - All rights reserved</p>
-      <p><a href="#">Home</a> | <a href="#">About</a> | <a href="#">Portfolio</a> | <a href="#">Blog</a> | <a href="#">Contact</a></p>
-    </div>
-  </footer>
+  <!-- FOOTER BOTTOM -->
+  <div class="footer-bottom">
+    <p>Copyright © WebsiteName - All rights reserved</p>
+    <p>
+      <a href="#">Home</a> |
+      <a href="#">About</a> |
+      <a href="#">Portfolio</a> |
+      <a href="#">Blog</a> |
+      <a href="#">Contact</a>
+    </p>
+  </div>
+
+</footer>
+
 </body>
 </html>
